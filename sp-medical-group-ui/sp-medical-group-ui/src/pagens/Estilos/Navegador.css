@@ -1,0 +1,49 @@
+* {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.admin {
+    display: flex;
+    height: 100vh;
+}
+.navegador {
+    background-color: #5FE1FF;
+    text-align: center;
+    padding: 9px;
+    border-right: solid 2px rgb(22, 22, 22);
+}
+.h1 {
+    font-size: 2em;
+    text-decoration: underline; 
+    margin: 2em 0em 2em 0em ;
+}
+.navegaDiv {
+    text-align: left;
+}
+.navega {
+    text-decoration: none;
+    border: none;
+    color: rgb(12, 12, 12);
+    font-size: 25px;
+    margin: 4px;
+}
+#icon {
+    color: rgb(12, 12, 12);
+    font-size: 35px;
+    margin: 4px
+}
+.direciona {
+    display: flex;
+    margin: 10px;
+    border-bottom: solid 2px rgb(12, 12, 12);
+}
+@media screen and (max-width: 480px) {
+    .admin{
+        display: list-item;
+        background-color: #5FE1FF;
+    }
+    .navegador {
+        background-color: #5FE1FF;
+        text-align: center;
+        padding: 9px;
+    }
+  }

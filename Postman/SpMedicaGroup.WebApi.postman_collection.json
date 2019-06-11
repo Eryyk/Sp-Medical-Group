@@ -1,0 +1,347 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SpMedicaGroup.WebApi",
+		"_postman_id": "6a57172c-2a43-576a-afd7-3069d77bf1ae",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"description": "",
+			"item": [
+				{
+					"name": "Listar Usuarios",
+					"request": {
+						"url": "http://localhost:5000/api/Usuarios",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastra Usuarios",
+					"request": {
+						"url": "http://localhost:5000/api/Usuarios",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clinicas",
+			"description": "",
+			"item": [
+				{
+					"name": "Listar Clinicas ",
+					"request": {
+						"url": "http://localhost:5000/api/Clinicas",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastra Clinicas ",
+					"request": {
+						"url": "http://localhost:5000/api/Clinicas",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Consultas",
+			"description": "",
+			"item": [
+				{
+					"name": "Listar Consultas ",
+					"request": {
+						"url": "http://localhost:5000/api/consultas",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE1NTMwMjAzNDEsImlzcyI6IlNwTWVkaWNhbEdyb3VwLldlYkFwaSIsImF1ZCI6IlNwTWVkaWNhbEdyb3VwLldlYkFwaSJ9.Bx8206rnx-BHE2GZ_Ugogq0ltpq1i3KBtCJHjMLfYos",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Consulta do Usuario Logado ",
+					"request": {
+						"url": "http://localhost:5000/api/consultaUsuario",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastra Consultas ",
+					"request": {
+						"url": "http://localhost:5000/api/consultas",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar Status Consulta",
+					"request": {
+						"url": "http://localhost:5000/api/Clinicas",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Alterar Descricao Consulta",
+					"request": {
+						"url": "http://localhost:5000/api/consultas/descricao/16",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"description": "",
+			"item": [
+				{
+					"name": "Fazer Login",
+					"request": {
+						"url": "http://localhost:5000/api/Login",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Medicos",
+			"description": "",
+			"item": [
+				{
+					"name": "Listar Medicos",
+					"request": {
+						"url": "http://localhost:5000/api/Medicos",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Prontruario",
+			"description": "",
+			"item": [
+				{
+					"name": "Cadastra Usuarios",
+					"request": {
+						"url": "http://localhost:5000/api/Prontuarios",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkFETUlOQEFETUlOLkNPTSIsImp0aSI6IjExIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTU1MjUwOTIzMCwiaXNzIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRpY2FsR3JvdXAuV2ViQXBpIn0.tmhXalvRudLyVXhLDumhexSegkCIP9I5SJDMQd7UD1s",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 16,\n        \"idMedico\": 2,\n        \"idProntuario\": 2,\n        \"dataAgendamento\": \"2018-01-06T10:00:00\",\n        \"idStatus\": 1,\n        \"descricao\": \"O paciente veio a obito\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

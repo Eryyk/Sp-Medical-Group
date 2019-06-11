@@ -1,0 +1,23 @@
+.linhaTabela{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    border-top:solid 2px rgb(6, 5, 5); 
+    padding: 10px;
+}
+.containerM{
+    width: 95%;
+    height: max-content;
+    border-top:solid 2px rgb(6, 5, 5); 
+    
+}
+#tabela-lista{
+     margin-top: 20px;
+}
+#TabelaAB{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

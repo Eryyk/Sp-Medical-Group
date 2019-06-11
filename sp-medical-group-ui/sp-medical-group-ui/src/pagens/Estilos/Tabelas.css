@@ -1,0 +1,37 @@
+#Tabela{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6% ;
+}
+.linhaTabela{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    border-top:solid 2px rgb(6, 5, 5); 
+    padding: 10px;
+}
+.container{
+    width: 95%;
+    height: max-content;
+    border-top:solid 2px rgb(6, 5, 5); 
+    display: flex;
+    justify-content: center;
+}
+thead{
+    width: 100%;
+    font-size: 25px;
+}
+th{
+    width: 9%;
+    background-color: rgb(241, 241, 241);
+}
+#tabela-liste{
+    width: 100%;
+}
+
+td{
+    background-color: rgb(251, 251, 251);
+}
