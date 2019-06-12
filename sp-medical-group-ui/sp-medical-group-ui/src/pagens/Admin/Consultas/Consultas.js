@@ -87,6 +87,11 @@ class Consultas extends Component {
         console.log(consulta);
     }
 
+    realizarLogout() {
+        localStorage.clear();
+        window.location.href = '/';
+    }
+
     atualizaEstadoIdMedico(event) {
         this.setState({ idMedico: event.target.value });
     }

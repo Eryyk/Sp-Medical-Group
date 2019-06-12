@@ -20,7 +20,7 @@ class Paciente extends Component {
                     </div>
                     <div className="direciona">
                             <i id="icon" class="fas fa-sign-out-alt"></i>
-                            <a className="navega" onClick={this.realizarLogout.bind(this)}>Sair</a>
+                            <a className="navega" onClick={this.realizarLogout.bind(this)} >Sair</a>
                     </div>
                    
                 </div>
